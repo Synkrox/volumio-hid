@@ -28,7 +28,9 @@
 # THE SOFTWARE.
 #
 
-import sys, os, logging, asyncio, threading
+import sys, os, logging, asyncio, threading, time
+
+time.sleep(15)
 
 import contextlib
 from functools import partial
